@@ -1,0 +1,7 @@
+
+## FROM_UNIXTIME
+    FROM_UNIXTIME(unix_timestamp[, format])
+```sql    
+SELECT FROM_UNIXTIME(1649830000);
+SELECT FROM_UNIXTIME(1649830000, '%Y%m%d%H%i%S');
+```
